@@ -1,0 +1,7 @@
+(library
+  (name project6)
+  (modules lexer astTypes utils parser tokenTypes)
+  (libraries str))
+(env
+  (dev
+    (flags (:standard -w -26-27-32-33-34-39))))

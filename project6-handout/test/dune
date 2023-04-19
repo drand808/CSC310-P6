@@ -1,0 +1,10 @@
+(tests
+  (names public student)
+  (libraries project6 oUnit)
+  (deps
+    (source_tree ./data)))
+
+(env
+  (dev
+    (flags (:standard -w -33))))
+
